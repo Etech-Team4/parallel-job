@@ -22,7 +22,7 @@ pipeline{
         }
         stage('3-codequality'){
             steps{
-                sh 'lscpu'
+                sh 'free -g'
             }
         }
         stage('4-backup'){
