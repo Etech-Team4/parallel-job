@@ -22,7 +22,7 @@ pipeline{
         }
         stage('3-codequality'){
             steps{
-                sh 'free -g'
+                sh 'lsblk'
             }
         }
         stage('4-backup'){
