@@ -15,7 +15,7 @@ pipeline{
                 }
                 stage('2-unittest'){
                     steps{
-                        sh 'free -g'
+                        sh 'free -m'
                     }
                 }
             }
